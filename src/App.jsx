@@ -12,7 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 // Import the new LandingPage component
 import LandingPage from './LandingPage'; // Assuming LandingPage.jsx is in the same directory
 
-const BACKEND_URL = 'http://localhost:3001';
+const BACKEND_URL = 'https://collabcode-backend-u3rm.onrender.com';
 
 // --- Auth Context for Global State Management ---
 const AuthContext = createContext(null);
